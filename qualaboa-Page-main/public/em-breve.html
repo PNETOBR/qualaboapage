@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QualABoa? — Em breve</title>
+    <meta name="description" content="Os links de download do app QualABoa estarão disponíveis em breve." />
+    <meta name="theme-color" content="#0B0B0F" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="QualABoa" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <style>
+      :root {
+        --bg:#07070B;
+        --bg2:#0D0D14;
+        --purple:#B030E0;
+        --yellow:#F0F0A0;
+        --orange:#E05020;
+        --text:#F4F4FF;
+        --muted:#C9C9DA;
+        --line:rgba(255,255,255,.10);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+        color: var(--text);
+        background:
+          radial-gradient(900px 520px at 20% 10%, rgba(176,48,224,.22), transparent 60%),
+          radial-gradient(900px 520px at 80% 20%, rgba(224,80,32,.16), transparent 60%),
+          linear-gradient(180deg, var(--bg), var(--bg2));
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: min(560px, 96vw);
+        border: 1px solid rgba(176,48,224,.28);
+        background: linear-gradient(180deg, rgba(176,48,224,.11), rgba(255,255,255,.03));
+        border-radius: 20px;
+        padding: 28px;
+        text-align: center;
+      }
+
+      .logo {
+        width: min(280px, 70vw);
+        height: auto;
+        margin: 0 auto 16px;
+        display: block;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: 34px;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.6;
+        font-size: 16px;
+      }
+
+      .tag {
+        display: inline-block;
+        margin-top: 18px;
+        padding: 8px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(240,240,160,.08);
+        color: var(--yellow);
+        font-weight: 800;
+      }
+
+      .back {
+        display: inline-block;
+        margin-top: 22px;
+        padding: 11px 16px;
+        border-radius: 12px;
+        border: 1px solid rgba(176,48,224,.35);
+        background: linear-gradient(90deg, rgba(176,48,224,.30), rgba(224,80,32,.18));
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <img class="logo" src="/assets/images/logo.png" alt="QualABoa?" />
+      <h1>Em breve 🚀</h1>
+      <p>
+        Os links de download do app ainda não estão disponíveis.
+        Em breve você poderá baixar na App Store e Google Play.
+      </p>
+      <span class="tag">Aguarde o lançamento</span>
+      <br />
+      <a class="back" href="/">Voltar para a página inicial</a>
+    </main>
+  </body>
+</html>
