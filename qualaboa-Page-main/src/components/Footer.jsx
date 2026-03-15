@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__links">
-          <a href="mailto:contato@qualaboa.app">contato@qualaboa.app</a>
+          <a href="mailto:contato@qualaboaapp.com">contato@qualaboaapp.com</a>
           <a href="https://www.instagram.com/app.qualaboa/" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
