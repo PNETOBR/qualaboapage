@@ -90,6 +90,7 @@ function getCategoryTagClass(category) {
 
 function getStatusClass(statusTone) {
   if (statusTone === 'open') return 'hero-app-card__status hero-app-card__status--open';
+  if (statusTone === 'alert') return 'hero-app-card__status hero-app-card__status--alert';
   return 'hero-app-card__status hero-app-card__status--soon';
 }
 
@@ -149,65 +150,80 @@ export default function Hero() {
             event.currentTarget.src = '/assets/images/logo.png';
           }}
         />
-        <div className="hero-app-card__badge hero-app-card__badge--pulse">{card.highlightText}</div>
-      </div>
-
-      <div className="hero-app-card__content">
-        <div className="hero-app-card__tags">
-          <span className={getCategoryTagClass(card.category)}>
-            <Icon name={getCategoryIcon(card.category)} />
-            {card.category}
-          </span>
-          <span className="tag tag--soft">
-            <Icon name="location" />
-            {formatDistance(card.distanceMeters)} de você
-          </span>
-        </div>
-
-        <div className="hero-app-card__row">
-          <div className="hero-app-card__heading">
-            <h3 className="hero-app-card__title">{card.name}</h3>
-            <p className="hero-app-card__meta">
-              <Icon name="location" />
-              {card.neighborhood}
-            </p>
-          </div>
-
+        <div className="hero-app-card__media-top">
+          <div className="hero-app-card__badge hero-app-card__badge--pulse">{card.highlightText}</div>
           <button type="button" className="hero-app-card__favorite" aria-label={`Salvar ${card.name}`}>
             <Icon name="heart" label={`Salvar ${card.name}`} />
           </button>
         </div>
 
-        <p className="hero-app-card__description">{card.description}</p>
+        <div className="hero-app-card__media-bottom">
+          <div className="hero-app-card__tags">
+            <span className={getCategoryTagClass(card.category)}>
+              <Icon name={getCategoryIcon(card.category)} />
+              {card.category}
+            </span>
+            <span className="tag tag--soft">
+              <Icon name="location" />
+              {formatDistance(card.distanceMeters)} de você
+            </span>
+          </div>
+        </div>
+      </div>
 
+      <div className="hero-app-card__content">
+        {/* Keep the header grouped so the hero preview reads like a real app card. */}
+        <div className="hero-app-card__summary">
+          <div className="hero-app-card__row">
+            <div className="hero-app-card__heading">
+              <h3 className="hero-app-card__title">{card.name}</h3>
+              <p className="hero-app-card__meta">
+                <Icon name="location" />
+                {card.neighborhood}
+              </p>
+            </div>
+          </div>
+
+          <p className="hero-app-card__description">{card.description}</p>
+        </div>
+
+        {/* Each info block keeps the same data, but now behaves like a mini-card from the app UI. */}
         <div className="hero-app-card__info">
           <div className="hero-app-card__line">
-            <Icon name="calendar" />
-            <div>
+            <span className="hero-app-card__icon-shell">
+              <Icon name="calendar" />
+            </span>
+            <div className="hero-app-card__line-copy">
               <span className="hero-app-card__label">Começa</span>
               <span className="hero-app-card__value">{formatDateTime(card.dataInicio)}</span>
             </div>
           </div>
 
           <div className="hero-app-card__line">
-            <Icon name="clock" />
-            <div>
+            <span className="hero-app-card__icon-shell">
+              <Icon name="clock" />
+            </span>
+            <div className="hero-app-card__line-copy">
               <span className="hero-app-card__label">Termina</span>
               <span className="hero-app-card__value">{formatDateTime(card.dataFim)}</span>
             </div>
           </div>
 
           <div className="hero-app-card__line">
-            <Icon name="clock" />
-            <div>
+            <span className="hero-app-card__icon-shell">
+              <Icon name="clock" />
+            </span>
+            <div className="hero-app-card__line-copy">
               <span className="hero-app-card__label">Horário</span>
               <span className="hero-app-card__value">{card.horario}</span>
             </div>
           </div>
 
           <div className="hero-app-card__line">
-            <Icon name="sparkles" />
-            <div>
+            <span className="hero-app-card__icon-shell">
+              <Icon name="sparkles" />
+            </span>
+            <div className="hero-app-card__line-copy">
               <span className="hero-app-card__label">Quando ir</span>
               <span className="hero-app-card__value">{card.diasAtendimento}</span>
             </div>
@@ -215,8 +231,10 @@ export default function Hero() {
 
           {card.temEstacionamento && (
             <div className="hero-app-card__line hero-app-card__line--accent">
-              <Icon name="car" />
-              <div>
+              <span className="hero-app-card__icon-shell">
+                <Icon name="car" />
+              </span>
+              <div className="hero-app-card__line-copy">
                 <span className="hero-app-card__label">Facilidade</span>
                 <span className="hero-app-card__value">Tem estacionamento</span>
               </div>
@@ -225,9 +243,14 @@ export default function Hero() {
         </div>
 
         <div className="hero-app-card__footer">
-          <span className={getStatusClass(card.statusTone)}>{card.openStatus}</span>
+          <span className={getStatusClass(card.statusTone)}>
+            <Icon name={card.statusTone === 'open' ? 'check' : 'clock'} />
+            {card.openStatus}
+          </span>
           <span className="hero-app-card__map">
-            <Icon name="map" />
+            <span className="hero-app-card__map-icon">
+              <Icon name="map" />
+            </span>
             Abrir no mapa
           </span>
         </div>
