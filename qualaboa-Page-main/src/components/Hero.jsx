@@ -1,15 +1,26 @@
 import { useEffect, useState } from 'react';
+import Icon from './Icon';
 
 const HOLD_MS = 5200;
 const TRANSITION_MS = 900;
 
-function getCategoryIcon(category) {
-  const cat = category?.trim().toLowerCase() || '';
-  if (cat === 'restaurante') return '🍽️';
-  if (cat === 'bar') return '🍺';
-  if (cat === 'balada') return '🍸';
-  return '🧾';
-}
+const proofPoints = [
+  {
+    icon: 'location',
+    title: 'Tudo em volta de você',
+    text: 'Veja opções próximas com endereço, distância e mapa sem trocar de app.',
+  },
+  {
+    icon: 'calendar',
+    title: 'O que vale sair hoje',
+    text: 'Encontre bares, restaurantes e eventos com contexto para decidir melhor.',
+  },
+  {
+    icon: 'ticket',
+    title: 'Destaques que ajudam na escolha',
+    text: 'Acompanhe cupons, novidades e locais em evidência no momento certo.',
+  },
+];
 
 const featuredCards = [
   {
@@ -18,31 +29,31 @@ const featuredCards = [
     neighborhood: 'Centro',
     distanceMeters: 650,
     imageUrl: '/assets/images/bar.png',
-    descricao: 'Happy hour com promoções e música ao vivo para começar a noite.',
-    dataInicio: '2026-03-06T18:30:00',
-    dataFim: '2026-03-07T00:30:00',
-    isOpen: true,
+    description: 'Happy hour com música ao vivo, promoções do dia e movimento ideal para começar a noite.',
+    dataInicio: '2026-03-20T18:30:00',
+    dataFim: '2026-03-21T00:30:00',
     openStatus: 'Aberto agora',
+    statusTone: 'open',
     horario: '18:30 às 00:30',
     diasAtendimento: 'Qui a Dom',
     temEstacionamento: true,
-    highlightText: 'ROLANDO AGORA!',
+    highlightText: 'ABERTO AGORA',
   },
   {
-    name: 'Sunset Open Bar',
-    category: 'Balada',
-    neighborhood: 'Rooftop Central',
+    name: 'Sunset no Mirante',
+    category: 'Evento',
+    neighborhood: 'Beira Rio',
     distanceMeters: 850,
-    imageUrl: '/assets/images/balada.png',
-    descricao: 'Open bar, DJs convidados e vista rooftop com cupom exclusivo no app.',
-    dataInicio: '2026-03-08T18:00:00',
-    dataFim: '2026-03-09T01:30:00',
-    isOpen: true,
-    openStatus: 'É hoje',
-    horario: '18:00 às 01:30',
+    imageUrl: '/assets/images/bar.png',
+    description: 'Evento ao pôr do sol com música ao vivo, vista aberta e agenda atualizada no app.',
+    dataInicio: '2026-03-20T19:00:00',
+    dataFim: '2026-03-20T23:30:00',
+    openStatus: 'Hoje, às 19:00',
+    statusTone: 'soon',
+    horario: '19:00 às 23:30',
     diasAtendimento: 'Sex e Sáb',
-    temEstacionamento: true,
-    highlightText: 'É HOJE!',
+    temEstacionamento: false,
+    highlightText: 'HOJE À NOITE',
   },
   {
     name: 'Cantina Primavera',
@@ -50,34 +61,56 @@ const featuredCards = [
     neighborhood: 'Jardins',
     distanceMeters: 1400,
     imageUrl: '/assets/images/restaurante.png',
-    descricao: 'Menu especial do chef e ambiente acolhedor para jantar em família.',
-    dataInicio: '2026-03-07T19:00:00',
-    dataFim: '2026-03-07T23:00:00',
-    isOpen: false,
+    description: 'Menu especial do chef e ambiente acolhedor para jantar com mais calma e menos indecisão.',
+    dataInicio: '2026-03-20T19:00:00',
+    dataFim: '2026-03-20T23:00:00',
     openStatus: 'Abre às 19:00',
+    statusTone: 'soon',
     horario: '19:00 às 23:00',
     diasAtendimento: 'Ter a Dom',
     temEstacionamento: false,
-    highlightText: 'NOVIDADE',
+    highlightText: 'RECOMENDADO',
   },
 ];
+
+function getCategoryIcon(category) {
+  const normalized = category.trim().toLowerCase();
+
+  if (normalized === 'restaurante') return 'restaurant';
+  if (normalized === 'evento') return 'sparkles';
+  return 'drink';
+}
+
+function getCategoryTagClass(category) {
+  const normalized = category.trim().toLowerCase();
+
+  if (normalized === 'restaurante') return 'tag tag--orange';
+  return 'tag tag--purple';
+}
+
+function getStatusClass(statusTone) {
+  if (statusTone === 'open') return 'hero-app-card__status hero-app-card__status--open';
+  return 'hero-app-card__status hero-app-card__status--soon';
+}
+
+function formatDistance(distanceMeters) {
+  return distanceMeters >= 1000 ? `${(distanceMeters / 1000).toFixed(1)} km` : `${distanceMeters} m`;
+}
+
+function formatDateTime(isoDate) {
+  return new Date(isoDate).toLocaleString('pt-BR', {
+    day: '2-digit',
+    month: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
 
 export default function Hero() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [outgoingIndex, setOutgoingIndex] = useState(null);
   const [isAnimating, setIsAnimating] = useState(false);
   const featuredCard = featuredCards[activeIndex];
-
-  const formatDistance = (distanceMeters) =>
-    distanceMeters >= 1000 ? `${(distanceMeters / 1000).toFixed(1)}km` : `${distanceMeters}m`;
-
-  const formatDateTime = (isoDate) =>
-    new Date(isoDate).toLocaleString('pt-BR', {
-      day: '2-digit',
-      month: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-    });
 
   const rotateTo = (nextIndex) => {
     if (isAnimating || nextIndex === activeIndex) return;
@@ -95,6 +128,7 @@ export default function Hero() {
   useEffect(() => {
     if (isAnimating) return undefined;
 
+    // Keep the showcase alive without changing the base layout of the hero.
     const timer = window.setTimeout(() => {
       rotateTo((activeIndex + 1) % featuredCards.length);
     }, HOLD_MS);
@@ -119,53 +153,84 @@ export default function Hero() {
       </div>
 
       <div className="hero-app-card__content">
+        <div className="hero-app-card__tags">
+          <span className={getCategoryTagClass(card.category)}>
+            <Icon name={getCategoryIcon(card.category)} />
+            {card.category}
+          </span>
+          <span className="tag tag--soft">
+            <Icon name="location" />
+            {formatDistance(card.distanceMeters)} de você
+          </span>
+        </div>
+
         <div className="hero-app-card__row">
-          <h3 className="hero-app-card__title">{card.name}</h3>
-          <div className="hero-app-card__icons">
-            <span title="Favoritar">❤</span>
-            <span title={card.category}>{getCategoryIcon(card.category)}</span>
+          <div className="hero-app-card__heading">
+            <h3 className="hero-app-card__title">{card.name}</h3>
+            <p className="hero-app-card__meta">
+              <Icon name="location" />
+              {card.neighborhood}
+            </p>
           </div>
+
+          <button type="button" className="hero-app-card__favorite" aria-label={`Salvar ${card.name}`}>
+            <Icon name="heart" label={`Salvar ${card.name}`} />
+          </button>
         </div>
 
-        <p className="hero-app-card__meta">
-          {card.category} • {card.neighborhood}
-        </p>
+        <p className="hero-app-card__description">{card.description}</p>
 
-        <p className="hero-app-card__description">{card.descricao}</p>
-
-        <div className="hero-app-card__line">
-          <span>📅</span>
-          <span>Início: {formatDateTime(card.dataInicio)}</span>
-        </div>
-
-        <div className="hero-app-card__line">
-          <span>🗓️</span>
-          <span>Fim: {formatDateTime(card.dataFim)}</span>
-        </div>
-
-        <div className="hero-app-card__line">
-          <span>{card.isOpen ? '✅' : '❌'}</span>
-          <span className={card.isOpen ? 'hero-app-card__status--open' : 'hero-app-card__status--closed'}>{card.openStatus}</span>
-        </div>
-
-        <div className="hero-app-card__line">
-          <span>⏰</span>
-          <span>{card.horario}</span>
-        </div>
-
-        <div className="hero-app-card__line">
-          <span>📆</span>
-          <span>{card.diasAtendimento}</span>
-        </div>
-
-        {card.temEstacionamento && (
-          <div className="hero-app-card__line hero-app-card__line--accent">
-            <span>🅿️</span>
-            <span>Tem estacionamento</span>
+        <div className="hero-app-card__info">
+          <div className="hero-app-card__line">
+            <Icon name="calendar" />
+            <div>
+              <span className="hero-app-card__label">Começa</span>
+              <span className="hero-app-card__value">{formatDateTime(card.dataInicio)}</span>
+            </div>
           </div>
-        )}
 
-        <div className="hero-app-card__map">📍 {formatDistance(card.distanceMeters)} • Abrir no mapa</div>
+          <div className="hero-app-card__line">
+            <Icon name="clock" />
+            <div>
+              <span className="hero-app-card__label">Termina</span>
+              <span className="hero-app-card__value">{formatDateTime(card.dataFim)}</span>
+            </div>
+          </div>
+
+          <div className="hero-app-card__line">
+            <Icon name="clock" />
+            <div>
+              <span className="hero-app-card__label">Horário</span>
+              <span className="hero-app-card__value">{card.horario}</span>
+            </div>
+          </div>
+
+          <div className="hero-app-card__line">
+            <Icon name="sparkles" />
+            <div>
+              <span className="hero-app-card__label">Quando ir</span>
+              <span className="hero-app-card__value">{card.diasAtendimento}</span>
+            </div>
+          </div>
+
+          {card.temEstacionamento && (
+            <div className="hero-app-card__line hero-app-card__line--accent">
+              <Icon name="car" />
+              <div>
+                <span className="hero-app-card__label">Facilidade</span>
+                <span className="hero-app-card__value">Tem estacionamento</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="hero-app-card__footer">
+          <span className={getStatusClass(card.statusTone)}>{card.openStatus}</span>
+          <span className="hero-app-card__map">
+            <Icon name="map" />
+            Abrir no mapa
+          </span>
+        </div>
 
         <div className="hero-app-card__dots" aria-label="Itens em destaque">
           {featuredCards.map((item, index) => (
@@ -174,7 +239,8 @@ export default function Hero() {
               type="button"
               className={`hero-app-card__dot ${index === activeIndex ? 'hero-app-card__dot--active' : ''}`}
               onClick={() => rotateTo(index)}
-              aria-label={`Mostrar ${item.category}`}
+              aria-label={`Mostrar destaque ${index + 1}`}
+              aria-pressed={index === activeIndex}
             />
           ))}
         </div>
@@ -183,28 +249,46 @@ export default function Hero() {
   );
 
   return (
-    <section className="hero">
+    <section className="hero" id="baixar">
       <div className="container hero__grid">
         <div className="hero__content">
-          <img className="hero__logo" src="/assets/images/logo.png" alt="QualABoa? — E aí, Qual a boa?" />
+          <div className="hero__logo-shell">
+            <img className="hero__logo" src="/assets/images/logo.png" alt="QualABoa?" />
+          </div>
+
+          <h1 className="hero__title">Descubra bares, restaurantes e eventos perto de você com mais contexto e menos dúvida.</h1>
 
           <p className="lead">
-            Descubra <strong>bares</strong>, <strong>restaurantes</strong> e <strong>eventos</strong> perto de você.
-            Veja o que tá rolando hoje, encontre locais em alta e aproveite cupons.
+            O QualABoa? reúne o que está aberto, o que acontece hoje e como chegar em um só lugar para deixar a decisão mais rápida, útil e confiável.
           </p>
 
-          <div className="actions" id="baixar">
+          <div className="actions">
             <a className="btn btn--primary" href="/em-breve.html">
-               App Store
+              Baixar o app
+              <Icon name="arrowRight" />
             </a>
-            <a className="btn btn--ghost" href="/em-breve.html">
-              ▶ Google Play
+            <a className="btn btn--ghost" href="#como-funciona">
+              Ver como funciona
             </a>
           </div>
 
           <div className="mini">
-            <span className="dot"></span>
-            Rápido de decidir, fácil de achar. E aí, qual é a boa?
+            <span className="mini__dot"></span>
+            <span>Rápido de decidir, fácil de achar. E aí, qual a boa?</span>
+          </div>
+
+          <div className="hero__proofs">
+            {proofPoints.map((item) => (
+              <div className="hero__proof" key={item.title}>
+                <div className="hero__proof-icon">
+                  <Icon name={item.icon} />
+                </div>
+                <div>
+                  <div className="hero__proof-title">{item.title}</div>
+                  <p className="hero__proof-text">{item.text}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -214,19 +298,13 @@ export default function Hero() {
               {outgoingIndex !== null && renderCard(featuredCards[outgoingIndex], 'hero-app-card hero-app-card--out')}
               {renderCard(featuredCard, `hero-app-card ${isAnimating ? 'hero-app-card--in' : ''}`)}
             </div>
-
-            <div className="glass__cta">
-              <a className="btn btn--primary btn--wide" href="/em-breve.html">
-                Baixar agora
-              </a>
-            </div>
           </div>
         </div>
       </div>
 
       <div className="glow glow--purple"></div>
       <div className="glow glow--orange"></div>
-      <div className="glow glow--yellow"></div>
+      <div className="glow glow--neutral"></div>
     </section>
   );
 }

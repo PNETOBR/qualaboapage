@@ -1,13 +1,23 @@
+import Icon from './Icon';
+
 const cards = [
   {
-    icon: '📍',
-    title: 'Veja locais próximos',
-    text: 'Encontre bares e restaurantes perto de você com infos úteis.',
+    icon: 'location',
+    eyebrow: 'Descoberta rápida',
+    title: 'Encontre boas opções perto de você',
+    text: 'Veja bares, restaurantes e eventos próximos com endereço, distância e mapa sem depender de buscas espalhadas.',
   },
   {
-    icon: '🎉',
-    title: 'Eventos do dia',
-    text: 'Descubra eventos acontecendo hoje e planeje sua noite.',
+    icon: 'calendar',
+    eyebrow: 'Decisão com contexto',
+    title: 'Entenda o que vale sair hoje',
+    text: 'Compare o que está aberto, o que acontece no dia e o melhor horário para ir com mais segurança.',
+  },
+  {
+    icon: 'ticket',
+    eyebrow: 'Valor percebido',
+    title: 'Aproveite cupons e destaques',
+    text: 'Descubra locais em evidência, benefícios e o selo Q? para priorizar o que faz sentido para você.',
   },
 ];
 
@@ -16,28 +26,21 @@ export default function HowItWorks() {
     <section className="section" id="como-funciona">
       <div className="container">
         <h2>Como funciona</h2>
-        <p className="section__desc">Em poucos cliques você descobre onde ir, o que está rolando e como chegar.</p>
+        <p className="section__desc">
+          Tudo o que você precisa para decidir onde ir em poucos cliques, com informação clara e visual consistente.
+        </p>
 
         <div className="grid">
           {cards.map((card) => (
-            <div className="card" key={card.title}>
-              <div className="icon">{card.icon}</div>
+            <article className="card" key={card.title}>
+              <div className="icon">
+                <Icon name={card.icon} />
+              </div>
+              <div className="card__eyebrow">{card.eyebrow}</div>
               <h3>{card.title}</h3>
               <p>{card.text}</p>
-            </div>
+            </article>
           ))}
-
-          <div className="card">
-            <div className="icon">🎟️</div>
-            <h3>Cupons e destaques</h3>
-            <p>
-              Aproveite cupons e veja locais premium com o nosso selo{' '}
-              <span className="selo-q">
-                <img className="selo-q__icon" src="/assets/images/favicon.svg" alt="" />
-              </span>
-              .
-            </p>
-          </div>
         </div>
       </div>
     </section>
