@@ -11,7 +11,7 @@ export default function ForBusinesses() {
   return (
     <section className="section section--alt" id="para-locais">
       <div className="container split">
-        <div>
+        <div className="for-businesses__content">
           <h2>Para estabelecimentos</h2>
           <p className="section__desc">
             Bar, restaurante ou evento: apareça para quem já está procurando onde ir e transforme descoberta em visita.
@@ -28,7 +28,7 @@ export default function ForBusinesses() {
             ))}
           </ul>
 
-          <div className="actions">
+          <div className="actions for-businesses__actions">
             <a className="btn btn--primary" href="https://wa.me/5511915473052" target="_blank" rel="noopener noreferrer">
               Quero divulgar meu local
               <Icon name="arrowRight" />
