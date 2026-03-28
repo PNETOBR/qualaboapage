@@ -1,0 +1,143 @@
+POLÍTICA DE PRIVACIDADE - QUALABOA
+
+Última atualização: 26 de março de 2026
+Versão: 2.0
+
+1. CONTROLADOR DOS DADOS
+
+O tratamento de dados pessoais realizado no âmbito do aplicativo QualABoa é de responsabilidade de Prince Cardoso Neto.
+
+Para assuntos de privacidade, proteção de dados e exercício de direitos do titular, o canal oficial é contato@qualaboaapp.com.
+
+2. QUAIS DADOS PODEMOS TRATAR
+
+Conforme a forma de uso da plataforma, o QualABoa poderá tratar as seguintes categorias de dados pessoais:
+
+- dados cadastrais, como nome, e-mail, telefone, CPF e data de nascimento;
+- dados de autenticação e segurança, como senha criptografada, códigos de verificação, confirmação de telefone, tokens de sessão, tokens de redefinição de senha e registros de acesso;
+- dados de perfil e uso, como locais favoritados, interações com funcionalidades, preferências e histórico necessário ao funcionamento da conta;
+- dados de localização, quando o usuário autorizar o acesso no dispositivo;
+- dados de cobrança e assinatura, como identificadores de cliente, assinatura, status, período de vigência, cancelamento e histórico relacionado ao plano contratado;
+- dados de administrador de estabelecimento, como CNPJ, endereço comercial, CEP, número, complemento e informações do local vinculado;
+- dados de conteúdo publicados na plataforma, como fotos, links, cardápio, Instagram, telefone comercial, eventos, descrições, horários, recursos do local e outros dados inseridos pelo administrador;
+- dados técnicos, como tipo de dispositivo, sistema operacional, falhas, logs e informações necessárias à segurança e estabilidade do serviço.
+
+3. COMO COLETAMOS OS DADOS
+
+Os dados podem ser coletados:
+
+- diretamente do titular, no cadastro, contratação, edição de perfil ou uso do aplicativo;
+- automaticamente, durante o uso da plataforma e de seus mecanismos de autenticação e segurança;
+- por integração com provedores de pagamento, mensageria, armazenamento, mapas e outros prestadores necessários à operação;
+- a partir de dados públicos de estabelecimentos e de informações fornecidas por administradores legitimados.
+
+4. FINALIDADES DO TRATAMENTO
+
+Os dados pessoais são tratados para finalidades como:
+
+- criar, autenticar e manter contas de usuários;
+- confirmar identidade, telefone e credenciais de acesso;
+- permitir recuperação de senha, segurança adicional e prevenção a fraudes;
+- exibir estabelecimentos, eventos e informações próximas à localização do usuário;
+- processar contratação, renovação, cancelamento e gestão de assinaturas;
+- habilitar o fluxo de reivindicação e administração de estabelecimentos;
+- permitir publicação e gerenciamento de conteúdo do estabelecimento;
+- enviar comunicações operacionais, cadastrais, contratuais e de segurança;
+- enviar notificações relacionadas a eventos de locais favoritados quando a funcionalidade estiver habilitada;
+- cumprir obrigações legais, regulatórias e requisições de autoridades competentes;
+- exercer direitos em processos administrativos, arbitrais ou judiciais;
+- melhorar desempenho, estabilidade, segurança e experiência da plataforma.
+
+5. BASES LEGAIS
+
+O QualABoa poderá tratar dados pessoais com fundamento, conforme o caso, em:
+
+- execução de contrato ou de procedimentos preliminares relacionados à contratação;
+- cumprimento de obrigação legal ou regulatória;
+- exercício regular de direitos;
+- legítimo interesse, observados os direitos e expectativas legítimas do titular;
+- consentimento, quando legalmente exigido.
+
+6. LOCALIZAÇÃO
+
+Dados de localização do dispositivo serão utilizados apenas quando o usuário conceder a permissão correspondente no aparelho. O usuário pode revogar essa permissão a qualquer momento nas configurações do dispositivo, ciente de que certas funcionalidades dependem desse acesso.
+
+7. COMUNICAÇÕES
+
+O QualABoa poderá enviar comunicações por e-mail, SMS, telefone, notificações push ou WhatsApp para:
+
+- verificar telefone;
+- concluir autenticação;
+- recuperar ou redefinir senha;
+- enviar alertas de segurança;
+- tratar assuntos cadastrais, contratuais e operacionais;
+- notificar o usuário sobre eventos relacionados a locais favoritados, quando essa funcionalidade estiver habilitada.
+
+Quando a legislação exigir consentimento específico para determinada comunicação, o envio observará a base legal aplicável e os mecanismos de controle disponíveis ao usuário.
+
+8. COMPARTILHAMENTO DE DADOS
+
+O QualABoa não comercializa dados pessoais. O compartilhamento poderá ocorrer, quando necessário e proporcional, com:
+
+- provedores de infraestrutura, hospedagem, armazenamento e segurança;
+- provedores de pagamento e faturamento, inclusive para processar assinaturas;
+- provedores de mensageria, e-mail, SMS e WhatsApp;
+- provedores de mapas, geolocalização, places e serviços correlatos;
+- prestadores de suporte operacional, jurídico, contábil, antifraude ou auditoria;
+- autoridades públicas, órgãos reguladores ou judiciais, quando houver obrigação legal, ordem válida ou necessidade de exercício regular de direitos.
+
+O compartilhamento será realizado dentro dos limites necessários para cada finalidade.
+
+9. TRANSFERÊNCIAS INTERNACIONAIS
+
+Determinados fornecedores de tecnologia utilizados pelo QualABoa podem armazenar, processar ou trafegar dados em servidores localizados fora do Brasil. Nesses casos, o QualABoa adotará medidas razoáveis para que a transferência internacional ocorra em conformidade com a legislação aplicável.
+
+10. RETENÇÃO E ELIMINAÇÃO
+
+Os dados pessoais serão armazenados pelo tempo necessário para:
+
+- cumprir as finalidades descritas nesta Política;
+- manter a execução do contrato e das funcionalidades contratadas;
+- atender obrigações legais, regulatórias e fiscais;
+- resguardar direitos do QualABoa e de terceiros;
+- prevenir fraudes e manter registros mínimos de segurança.
+
+Após o encerramento da conta ou o término da relação contratual, determinados dados poderão ser mantidos pelo prazo necessário às finalidades acima e, quando possível, eliminados, anonimizados ou bloqueados.
+
+11. DIREITOS DO TITULAR
+
+Nos termos da Lei Geral de Proteção de Dados Pessoais, o titular poderá solicitar, conforme aplicável:
+
+- confirmação da existência de tratamento;
+- acesso aos dados;
+- correção de dados incompletos, inexatos ou desatualizados;
+- anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade;
+- portabilidade, observadas as limitações legais e regulatórias;
+- eliminação de dados tratados com base em consentimento, quando aplicável;
+- informação sobre compartilhamentos realizados;
+- informação sobre a possibilidade de não fornecer consentimento e suas consequências;
+- revogação do consentimento, quando essa for a base legal aplicável.
+
+As solicitações devem ser enviadas para contato@qualaboaapp.com. O QualABoa poderá solicitar informações adicionais razoáveis para confirmar a identidade do solicitante e proteger dados contra acesso indevido.
+
+12. SEGURANÇA
+
+O QualABoa adota medidas técnicas e organizacionais razoáveis para proteger os dados pessoais contra acessos não autorizados, destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
+
+Nenhum sistema é totalmente imune a incidentes. Por isso, o usuário também deve adotar boas práticas de segurança, especialmente quanto ao uso da senha, do dispositivo e dos canais de comunicação da conta.
+
+13. DADOS DE MENORES
+
+O QualABoa é destinado a pessoas com 18 anos ou mais. Caso o QualABoa identifique cadastro em desacordo com essa regra, poderá restringir ou encerrar a conta e adotar as medidas cabíveis.
+
+14. ALTERAÇÕES DESTA POLÍTICA
+
+Esta Política poderá ser atualizada para refletir mudanças legais, regulatórias, operacionais ou tecnológicas. A versão vigente será sempre a mais recente disponibilizada no aplicativo, com a respectiva data de atualização.
+
+15. CONTATO
+
+Em caso de dúvidas sobre esta Política ou sobre o tratamento de dados pessoais, entre em contato por:
+
+- contato@qualaboaapp.com
+- contato@qualaboaapp.com
+- (11) 91547-3052

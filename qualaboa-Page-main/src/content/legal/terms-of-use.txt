@@ -1,0 +1,196 @@
+TERMOS DE USO - QUALABOA
+
+Última atualização: 26 de março de 2026
+Versão: 2.0
+
+IMPORTANTE
+
+Este documento foi redigido para refletir as funcionalidades atualmente disponibilizadas no aplicativo QualABoa. A operação atual foi informada como realizada por pessoa física responsável pela plataforma.
+
+1. IDENTIFICAÇÃO DO FORNECEDOR
+
+O aplicativo QualABoa é operado por Prince Cardoso Neto, doravante denominado "QualABoa".
+
+Os canais oficiais de contato são:
+
+- Suporte: contato@qualaboaapp.com
+- Privacidade e LGPD: contato@qualaboaapp.com
+- Assuntos jurídicos: contato@qualaboaapp.com
+- Atendimento: (11) 91547-3052
+
+2. O QUE É O QUALABOA
+
+O QualABoa é uma plataforma digital voltada à descoberta e divulgação de bares, restaurantes, baladas e estabelecimentos similares. A plataforma pode exibir, entre outras informações:
+
+- nome, categoria e endereço do estabelecimento;
+- localização no mapa;
+- horários de funcionamento;
+- fotos e links públicos;
+- eventos e informações promocionais;
+- dados de contato e redes sociais;
+- informações adicionais inseridas pelo administrador do local.
+
+O QualABoa atua como plataforma de tecnologia e divulgação. Salvo quando houver indicação expressa em contrário, o QualABoa não é o prestador direto dos serviços oferecidos pelos estabelecimentos anunciados e não substitui a relação contratual entre usuário e estabelecimento.
+
+3. ACEITAÇÃO DOS TERMOS
+
+Ao acessar, se cadastrar ou utilizar o aplicativo, o usuário declara que leu, compreendeu e concorda com estes Termos de Uso, com a Política de Privacidade e, quando aplicável, com os Termos Específicos para Administradores de Estabelecimentos.
+
+Se o usuário não concordar com qualquer condição aqui prevista, não deverá utilizar a plataforma.
+
+4. ELEGIBILIDADE E CADASTRO
+
+O uso do QualABoa é permitido apenas a pessoas com 18 anos ou mais.
+
+Ao criar uma conta, o usuário se compromete a:
+
+- fornecer dados verdadeiros, completos e atualizados;
+- manter seus dados corretos ao longo do uso da plataforma;
+- proteger sua senha, códigos de verificação e demais credenciais;
+- não compartilhar sua conta com terceiros;
+- não utilizar a plataforma para atos ilícitos, fraudulentos, ofensivos ou que violem direitos de terceiros.
+
+O usuário é responsável pelas atividades realizadas a partir de sua conta quando houver uso de suas credenciais, sem prejuízo das responsabilidades legais do QualABoa por falhas imputáveis à própria plataforma.
+
+5. FUNCIONALIDADES DA PLATAFORMA
+
+O QualABoa pode disponibilizar ao usuário, conforme evolução do produto:
+
+- cadastro e autenticação de conta;
+- validação de telefone e procedimentos de segurança;
+- recuperação e redefinição de senha;
+- edição de perfil;
+- pesquisa de estabelecimentos e categorias;
+- visualização de locais próximos com base na localização autorizada pelo usuário;
+- favoritos;
+- visualização de detalhes de estabelecimentos, incluindo links externos, rotas, cardápios, delivery e redes sociais;
+- visualização de eventos;
+- contratação de plano para administradores de estabelecimentos;
+- gerenciamento de dados do estabelecimento pelo respectivo administrador.
+
+Algumas funcionalidades podem depender de integrações com terceiros, disponibilidade técnica, aprovação cadastral ou contratação de plano pago.
+
+6. INFORMAÇÕES DE ESTABELECIMENTOS E FONTES DE DADOS
+
+O QualABoa pode exibir dados públicos de estabelecimentos obtidos de bases próprias, de informações fornecidas por administradores de estabelecimentos e de integrações com terceiros, incluindo serviços de mapas, busca local e geolocalização.
+
+Perfis de estabelecimentos podem existir na plataforma mesmo antes de serem reivindicados por seus responsáveis.
+
+O QualABoa poderá, mediante análise interna, corrigir, complementar, ocultar, desativar ou remover informações de estabelecimentos quando identificar:
+
+- inconsistência relevante;
+- ordem legal ou solicitação juridicamente válida;
+- violação destes Termos;
+- risco à integridade da plataforma ou a terceiros.
+
+7. CONTEÚDO INSERIDO PELO USUÁRIO
+
+Quando o usuário enviar informações, imagens, textos, links, dados de eventos ou outros conteúdos para a plataforma, declara que possui os direitos, autorizações e bases legais necessários para esse envio e para a respectiva divulgação.
+
+É proibido inserir conteúdo que:
+
+- seja falso, enganoso ou desatualizado de forma relevante;
+- viole direitos autorais, de imagem, marca ou outros direitos de terceiros;
+- contenha discurso de ódio, discriminação, ameaça, assédio ou conteúdo ilícito;
+- inclua malware, engenharia social ou tentativa de fraude;
+- infringa a legislação aplicável.
+
+O usuário permanece responsável pelo conteúdo que inserir na plataforma.
+
+8. COMUNICAÇÕES DA PLATAFORMA
+
+O usuário concorda que o QualABoa poderá enviar comunicações relacionadas ao uso do serviço, inclusive por e-mail, SMS, telefone, notificações push ou WhatsApp, quando cabível, para finalidades como:
+
+- confirmação de cadastro;
+- verificação de telefone;
+- recuperação ou redefinição de senha;
+- autenticação adicional e segurança da conta;
+- avisos operacionais, cadastrais ou contratuais;
+- notificações sobre eventos de locais favoritados, quando essa funcionalidade estiver habilitada na plataforma.
+
+Comunicações estritamente necessárias à execução do serviço, segurança da conta, prevenção a fraudes e cumprimento de obrigações legais poderão ser enviadas independentemente de consentimento promocional específico, nos limites da legislação aplicável.
+
+9. PLANOS PAGOS, PERÍODO GRATUITO, CANCELAMENTO E REEMBOLSO
+
+Algumas funcionalidades do QualABoa, especialmente as destinadas a administradores de estabelecimentos, podem depender da contratação de plano pago.
+
+Antes da contratação, o QualABoa deverá informar de forma clara:
+
+- o valor vigente do plano;
+- a periodicidade de cobrança;
+- a existência de eventual período gratuito;
+- a forma de pagamento;
+- as regras de renovação, cancelamento e efeitos do encerramento.
+
+Quando elegível, o QualABoa poderá oferecer período gratuito de 30 dias para validação da solução. Se o usuário cancelar dentro do período gratuito, não haverá cobrança da primeira mensalidade.
+
+Encerrado o período gratuito, ou inexistindo tal benefício, a assinatura seguirá a cobrança recorrente apresentada na tela de contratação e poderá ser renovada automaticamente até que haja cancelamento.
+
+O cancelamento solicitado após a cobrança, via de regra, interrompe novas renovações, mantendo o acesso às funcionalidades contratadas até o fim do ciclo já pago, salvo hipótese de cancelamento imediato expressamente escolhida pelo usuário ou medida necessária por violação contratual, risco operacional ou obrigação legal.
+
+O QualABoa não adota política comercial de reembolso voluntário para períodos já iniciados, sem prejuízo dos direitos obrigatórios previstos em lei, inclusive:
+
+- direito de arrependimento quando aplicável;
+- estorno por cobrança indevida;
+- estorno ou ajuste por falha operacional imputável à plataforma;
+- hipóteses específicas previstas em oferta, campanha ou determinação legal.
+
+Pedidos relacionados a cobrança, cancelamento ou direitos legais devem ser encaminhados pelos canais oficiais de atendimento.
+
+10. CONTA, SUSPENSÃO E ENCERRAMENTO
+
+O usuário poderá solicitar encerramento de conta ou exercício de direitos sobre seus dados pessoais pelos canais oficiais indicados nestes Termos e na Política de Privacidade.
+
+O QualABoa poderá suspender, limitar ou encerrar contas, perfis, funcionalidades ou conteúdos quando verificar, por exemplo:
+
+- descumprimento destes Termos;
+- uso fraudulento ou suspeita razoável de fraude;
+- violação de direitos de terceiros;
+- risco à segurança da conta, da plataforma ou de outros usuários;
+- determinação legal ou regulatória.
+
+Sempre que possível e compatível com a natureza do caso, o QualABoa poderá informar o usuário sobre a medida adotada.
+
+11. PROPRIEDADE INTELECTUAL
+
+O nome QualABoa, sua identidade visual, software, bases estruturadas, interfaces, marcas, textos, logos e demais elementos da plataforma são protegidos pela legislação aplicável.
+
+Nada nestes Termos transfere ao usuário qualquer direito de propriedade intelectual do QualABoa, exceto autorização limitada, revogável e não exclusiva para uso da plataforma conforme sua finalidade.
+
+12. RESPONSABILIDADES E LIMITES
+
+O QualABoa envida esforços razoáveis para manter a plataforma em funcionamento e para apresentar informações úteis ao usuário. Ainda assim, o usuário reconhece que:
+
+- dados de estabelecimentos, eventos, horários, preços, cardápios, lotação e promoções podem mudar sem aviso prévio;
+- certas informações podem depender de terceiros ou dos próprios administradores dos locais;
+- links externos, rotas, aplicativos de transporte, serviços de entrega e redes sociais possuem regras e disponibilidades próprias;
+- podem ocorrer indisponibilidades temporárias, manutenções, erros ou limitações técnicas.
+
+O QualABoa não garante resultados comerciais, aumento de público, volume de clientes, disponibilidade de vagas, tempo de espera, qualidade de atendimento do estabelecimento ou compatibilidade contínua com todos os dispositivos.
+
+Nada nestes Termos exclui ou limita:
+
+- responsabilidade do QualABoa por cobrança indevida ou falha imputável à própria plataforma;
+- deveres legais relacionados à proteção de dados pessoais, segurança da informação e oferta do serviço;
+- direitos assegurados ao consumidor pela legislação brasileira.
+
+13. ALTERAÇÕES DESTES TERMOS
+
+O QualABoa poderá atualizar estes Termos para refletir mudanças legais, regulatórias, operacionais ou de produto.
+
+Em caso de alteração relevante, a versão atualizada será disponibilizada na plataforma com a nova data de atualização. O uso continuado da plataforma após a publicação da nova versão poderá caracterizar aceitação, sem prejuízo dos casos em que a legislação exigir aceite específico.
+
+14. LEI APLICÁVEL E FORO
+
+Estes Termos são regidos pelas leis da República Federativa do Brasil.
+
+Fica eleito o foro do domicílio do usuário ou outro foro legalmente competente, conforme a legislação aplicável, especialmente nas relações de consumo.
+
+15. CONTATO
+
+Dúvidas, solicitações contratuais, pedidos de suporte, solicitações relacionadas à LGPD e notificações formais devem ser encaminhados para:
+
+- contato@qualaboaapp.com
+- contato@qualaboaapp.com
+- contato@qualaboaapp.com
+- (11) 91547-3052

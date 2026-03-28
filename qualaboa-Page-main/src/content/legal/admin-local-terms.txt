@@ -1,0 +1,130 @@
+TERMOS ESPECÍFICOS PARA ADMINISTRADORES DE ESTABELECIMENTOS
+
+Última atualização: 26 de março de 2026
+Versão: 2.0
+
+Este documento complementa os Termos de Uso gerais e aplica-se aos usuários que solicitam reivindicação, aprovação, contratação de plano ou administração de perfis de estabelecimentos no QualABoa.
+
+1. QUEM PODE SER ADMINISTRADOR DE ESTABELECIMENTO
+
+Poderá solicitar perfil de administrador a pessoa maior de 18 anos que possua vínculo legítimo com o estabelecimento e apresente, quando solicitado, documentação comprobatória adequada, como CNPJ, contrato social, procuração, documento societário, documento de representação ou outro meio idôneo.
+
+O envio do pedido de administração não garante aprovação automática.
+
+2. DADOS E INFORMAÇÕES EXIGIDOS
+
+O solicitante poderá precisar informar, conforme o fluxo aplicável:
+
+- nome e dados da conta;
+- CNPJ;
+- endereço comercial, CEP, número e complemento;
+- dados do estabelecimento a ser administrado;
+- informações necessárias à cobrança e à contratação do plano.
+
+O solicitante declara que todos os dados enviados são verdadeiros, atuais e suficientes para comprovar seu vínculo com o estabelecimento.
+
+3. APROVAÇÃO, RECUSA E REVISÃO
+
+O QualABoa poderá:
+
+- aprovar ou recusar solicitações de administração;
+- solicitar documentação adicional;
+- suspender análise em caso de inconsistência;
+- revogar aprovação concedida se identificar fraude, erro material, conflito de titularidade, violação destes Termos ou determinação legal.
+
+4. FUNCIONALIDADES DO ADMINISTRADOR
+
+Uma vez aprovado e, quando aplicável, com assinatura ativa, o administrador poderá gerenciar dados públicos do estabelecimento, incluindo, conforme disponibilidade do produto:
+
+- descrição e informações gerais;
+- horários e dias de funcionamento;
+- imagens e links;
+- Instagram, telefone comercial, cardápio e canais de delivery;
+- características do local, estacionamento e recursos informativos;
+- criação e edição de eventos;
+- demais dados disponibilizados no painel de gestão.
+
+5. RESPONSABILIDADE PELO CONTEÚDO DO ESTABELECIMENTO
+
+O administrador é responsável pelas informações, imagens, textos, links, promoções, eventos e demais conteúdos inseridos no perfil do estabelecimento.
+
+O administrador declara que possui os direitos e autorizações necessários para uso e divulgação do material enviado à plataforma.
+
+É vedado:
+
+- publicar informação falsa, enganosa ou desatualizada de forma relevante;
+- utilizar imagens sem autorização;
+- prometer ofertas ou benefícios sem condição real de cumprimento;
+- inserir conteúdo ilícito, ofensivo, discriminatório ou que viole direitos de terceiros.
+
+O QualABoa poderá moderar, ocultar, ajustar ou remover conteúdo que infrinja estes Termos, a legislação aplicável ou a integridade da plataforma.
+
+6. PLANO PAGO, PERÍODO GRATUITO E COBRANÇA
+
+O acesso a determinadas funcionalidades de administração poderá depender de assinatura paga.
+
+Antes da conclusão da contratação, o QualABoa informará na tela correspondente:
+
+- valor vigente;
+- periodicidade da cobrança;
+- forma de pagamento;
+- eventual período gratuito de 30 dias para usuários elegíveis;
+- regras de renovação e cancelamento.
+
+Se houver período gratuito e o cancelamento ocorrer antes do seu encerramento, a primeira cobrança não será realizada.
+
+Após o término do período gratuito, ou inexistindo esse benefício, a assinatura seguirá cobrança recorrente nas condições informadas no momento da contratação, podendo haver renovação automática até cancelamento.
+
+7. CANCELAMENTO, EFEITOS E REEMBOLSO
+
+O administrador poderá solicitar o cancelamento da assinatura pelos meios disponibilizados na plataforma ou pelos canais oficiais de atendimento.
+
+Salvo informação diferente na tela de contratação ou escolha expressa de cancelamento imediato, o cancelamento solicitado após cobrança interrompe as futuras renovações, mantendo o acesso até o fim do ciclo já pago.
+
+Em determinadas hipóteses, inclusive no cancelamento integral do perfil administrativo, o QualABoa poderá:
+
+- desativar funcionalidades administrativas;
+- remover o vínculo do usuário com o estabelecimento;
+- rebaixar a conta para perfil comum;
+- ocultar, despublicar ou remover dados gerenciados internamente, sem prejuízo de registros que devam ser mantidos por obrigação legal ou defesa de direitos.
+
+O QualABoa não adota política comercial de reembolso voluntário para períodos já iniciados, ressalvados os direitos obrigatórios previstos em lei, hipóteses de cobrança indevida, falha operacional imputável à plataforma, oferta específica ou determinação legal.
+
+8. INADIMPLÊNCIA E FALHAS DE PAGAMENTO
+
+Em caso de falha de pagamento, inadimplência, estorno indevido, bloqueio do meio de pagamento ou suspeita de fraude, o QualABoa poderá limitar, suspender ou encerrar funcionalidades administrativas até a regularização, sem prejuízo das medidas legais cabíveis.
+
+9. DADOS DO ESTABELECIMENTO E EXIBIÇÃO PÚBLICA
+
+O administrador reconhece que as informações inseridas para divulgação do estabelecimento poderão ser exibidas publicamente aos usuários da plataforma.
+
+Dados estritamente comerciais e de divulgação do estabelecimento poderão continuar associados ao local na plataforma quando houver base legítima para manutenção informativa do cadastro, respeitadas as regras internas, direitos de terceiros e obrigações legais.
+
+10. LICENÇA DE USO DO CONTEÚDO
+
+Ao enviar conteúdo para o perfil do estabelecimento, o administrador concede ao QualABoa licença não exclusiva, revogável na medida permitida pela natureza do serviço e limitada à operação, hospedagem, tratamento, reprodução e exibição desse conteúdo dentro da plataforma e de seus materiais promocionais institucionais relacionados ao próprio estabelecimento.
+
+11. RESPONSABILIDADES E LIMITES
+
+O QualABoa atua como meio de divulgação e gestão digital do perfil do estabelecimento. O QualABoa não garante:
+
+- aumento de faturamento;
+- número mínimo de clientes;
+- ocupação do local;
+- retorno financeiro específico;
+- performance comercial de eventos ou campanhas.
+
+Nada nesta cláusula exclui deveres legais do QualABoa por falhas próprias da plataforma, cobrança, proteção de dados, segurança ou oferta.
+
+12. ALTERAÇÕES E VIGÊNCIA
+
+Estes Termos poderão ser alterados para refletir mudanças legais, regulatórias, comerciais, tecnológicas ou operacionais. A versão vigente será a mais recente disponibilizada no aplicativo.
+
+13. CONTATO
+
+Assuntos relacionados à administração de estabelecimentos, cobrança, cancelamento, privacidade ou documentação devem ser encaminhados para:
+
+- contato@qualaboaapp.com
+- contato@qualaboaapp.com
+- contato@qualaboaapp.com
+- (11) 91547-3052
