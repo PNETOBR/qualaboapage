@@ -10,6 +10,7 @@ export default defineConfig({
         main: fileURLToPath(new URL('./index.html', import.meta.url)),
         terms: fileURLToPath(new URL('./termos.html', import.meta.url)),
         privacy: fileURLToPath(new URL('./privacidade.html', import.meta.url)),
+        deleteAccount: fileURLToPath(new URL('./exclusao-conta.html', import.meta.url)),
       },
     },
   },

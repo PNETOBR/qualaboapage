@@ -20,6 +20,7 @@ export default function Footer() {
           </a>
           <a href="/privacidade.html">Privacidade</a>
           <a href="/termos.html">Termos</a>
+          <a href="/exclusao-conta.html">Exclusão de conta</a>
         </div>
       </div>
     </footer>
