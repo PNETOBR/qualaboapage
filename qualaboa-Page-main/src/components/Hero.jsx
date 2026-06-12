@@ -12,7 +12,7 @@ const proofPoints = [
   },
   {
     icon: 'calendar',
-    title: 'O que vale sair hoje',
+    title: 'Onde vale a pena sair hoje',
     text: 'Encontre bares, restaurantes e eventos com contexto para decidir melhor.',
   },
   {
@@ -35,7 +35,7 @@ const featuredCards = [
     openStatus: 'Aberto agora',
     statusTone: 'open',
     horario: '18:30 às 00:30',
-    diasAtendimento: 'Qui a Dom',
+    diasAtendimento: 'qui. a dom.',
     temEstacionamento: true,
     highlightText: 'ABERTO AGORA',
   },
@@ -51,7 +51,7 @@ const featuredCards = [
     openStatus: 'Hoje, às 19:00',
     statusTone: 'soon',
     horario: '19:00 às 23:30',
-    diasAtendimento: 'Sex e Sáb',
+    diasAtendimento: 'sex. e sáb.',
     temEstacionamento: false,
     highlightText: 'HOJE À NOITE',
   },
@@ -67,7 +67,7 @@ const featuredCards = [
     openStatus: 'Abre às 19:00',
     statusTone: 'soon',
     horario: '19:00 às 23:00',
-    diasAtendimento: 'Ter a Dom',
+    diasAtendimento: 'ter. a dom.',
     temEstacionamento: false,
     highlightText: 'RECOMENDADO',
   },
@@ -282,7 +282,7 @@ export default function Hero() {
           <h1 className="hero__title">Descubra bares, restaurantes e eventos perto de você com mais contexto e menos dúvida.</h1>
 
           <p className="lead">
-            O QualABoa? reúne o que está aberto, o que acontece hoje e como chegar em um só lugar para deixar a decisão mais rápida, útil e confiável.
+            O QualABoa? reúne, em um só lugar, o que está aberto, o que acontece hoje e como chegar, tornando a decisão mais rápida, útil e confiável.
           </p>
 
           <div className="actions">

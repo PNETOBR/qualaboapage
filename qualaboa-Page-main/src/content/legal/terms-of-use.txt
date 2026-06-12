@@ -54,7 +54,7 @@ O usuário é responsável pelas atividades realizadas a partir de sua conta qua
 
 5. FUNCIONALIDADES DA PLATAFORMA
 
-O QualABoa pode disponibilizar ao usuário, conforme evolução do produto:
+O QualABoa pode disponibilizar ao usuário, conforme a evolução do produto:
 
 - cadastro e autenticação de conta;
 - validação de telefone e procedimentos de segurança;
@@ -135,11 +135,11 @@ O QualABoa não adota política comercial de reembolso voluntário para período
 - estorno ou ajuste por falha operacional imputável à plataforma;
 - hipóteses específicas previstas em oferta, campanha ou determinação legal.
 
-Pedidos relacionados a cobrança, cancelamento ou direitos legais devem ser encaminhados pelos canais oficiais de atendimento.
+Pedidos relacionados à cobrança, ao cancelamento ou a direitos legais devem ser encaminhados pelos canais oficiais de atendimento.
 
 10. CONTA, SUSPENSÃO E ENCERRAMENTO
 
-O usuário poderá solicitar encerramento de conta ou exercício de direitos sobre seus dados pessoais pelos canais oficiais indicados nestes Termos e na Política de Privacidade.
+O usuário poderá solicitar o encerramento da conta ou exercer direitos sobre seus dados pessoais pelos canais oficiais indicados nestes Termos e na Política de Privacidade.
 
 O QualABoa poderá suspender, limitar ou encerrar contas, perfis, funcionalidades ou conteúdos quando verificar, por exemplo:
 

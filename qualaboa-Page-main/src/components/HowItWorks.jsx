@@ -10,7 +10,7 @@ const cards = [
   {
     icon: 'calendar',
     eyebrow: 'Decisão com contexto',
-    title: 'Entenda o que vale sair hoje',
+    title: 'Descubra onde vale a pena sair hoje',
     text: 'Compare o que está aberto, o que acontece no dia e o melhor horário para ir com mais segurança.',
   },
   {

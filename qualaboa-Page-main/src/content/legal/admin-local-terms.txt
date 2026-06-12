@@ -7,7 +7,7 @@ Este documento complementa os Termos de Uso gerais e aplica-se aos usuários que
 
 1. QUEM PODE SER ADMINISTRADOR DE ESTABELECIMENTO
 
-Poderá solicitar perfil de administrador a pessoa maior de 18 anos que possua vínculo legítimo com o estabelecimento e apresente, quando solicitado, documentação comprobatória adequada, como CNPJ, contrato social, procuração, documento societário, documento de representação ou outro meio idôneo.
+A pessoa maior de 18 anos que possua vínculo legítimo com o estabelecimento poderá solicitar um perfil de administrador e deverá apresentar, quando solicitado, documentação comprobatória adequada, como CNPJ, contrato social, procuração, documento societário, documento de representação ou outro meio idôneo.
 
 O envio do pedido de administração não garante aprovação automática.
 
@@ -29,12 +29,12 @@ O QualABoa poderá:
 
 - aprovar ou recusar solicitações de administração;
 - solicitar documentação adicional;
-- suspender análise em caso de inconsistência;
+- suspender a análise em caso de inconsistência;
 - revogar aprovação concedida se identificar fraude, erro material, conflito de titularidade, violação destes Termos ou determinação legal.
 
 4. FUNCIONALIDADES DO ADMINISTRADOR
 
-Uma vez aprovado e, quando aplicável, com assinatura ativa, o administrador poderá gerenciar dados públicos do estabelecimento, incluindo, conforme disponibilidade do produto:
+Uma vez aprovado e, quando aplicável, com assinatura ativa, o administrador poderá gerenciar dados públicos do estabelecimento, incluindo, conforme a disponibilidade do produto:
 
 - descrição e informações gerais;
 - horários e dias de funcionamento;
@@ -48,7 +48,7 @@ Uma vez aprovado e, quando aplicável, com assinatura ativa, o administrador pod
 
 O administrador é responsável pelas informações, imagens, textos, links, promoções, eventos e demais conteúdos inseridos no perfil do estabelecimento.
 
-O administrador declara que possui os direitos e autorizações necessários para uso e divulgação do material enviado à plataforma.
+O administrador declara que possui os direitos e autorizações necessários para o uso e a divulgação do material enviado à plataforma.
 
 É vedado:
 
@@ -73,13 +73,13 @@ Antes da conclusão da contratação, o QualABoa informará na tela corresponden
 
 Se houver período gratuito e o cancelamento ocorrer antes do seu encerramento, a primeira cobrança não será realizada.
 
-Após o término do período gratuito, ou inexistindo esse benefício, a assinatura seguirá cobrança recorrente nas condições informadas no momento da contratação, podendo haver renovação automática até cancelamento.
+Após o término do período gratuito, ou inexistindo esse benefício, a assinatura seguirá a cobrança recorrente nas condições informadas no momento da contratação, podendo haver renovação automática até o cancelamento.
 
 7. CANCELAMENTO, EFEITOS E REEMBOLSO
 
 O administrador poderá solicitar o cancelamento da assinatura pelos meios disponibilizados na plataforma ou pelos canais oficiais de atendimento.
 
-Salvo informação diferente na tela de contratação ou escolha expressa de cancelamento imediato, o cancelamento solicitado após cobrança interrompe as futuras renovações, mantendo o acesso até o fim do ciclo já pago.
+Salvo se houver informação diferente na tela de contratação ou escolha expressa pelo cancelamento imediato, o cancelamento solicitado após a cobrança interrompe as futuras renovações, mantendo o acesso até o fim do ciclo já pago.
 
 Em determinadas hipóteses, inclusive no cancelamento integral do perfil administrativo, o QualABoa poderá:
 
@@ -98,7 +98,7 @@ Em caso de falha de pagamento, inadimplência, estorno indevido, bloqueio do mei
 
 O administrador reconhece que as informações inseridas para divulgação do estabelecimento poderão ser exibidas publicamente aos usuários da plataforma.
 
-Dados estritamente comerciais e de divulgação do estabelecimento poderão continuar associados ao local na plataforma quando houver base legítima para manutenção informativa do cadastro, respeitadas as regras internas, direitos de terceiros e obrigações legais.
+Dados estritamente comerciais e de divulgação do estabelecimento poderão continuar associados ao local na plataforma quando houver base legítima para a manutenção informativa do cadastro, respeitadas as regras internas, os direitos de terceiros e as obrigações legais.
 
 10. LICENÇA DE USO DO CONTEÚDO
 
@@ -112,7 +112,7 @@ O QualABoa atua como meio de divulgação e gestão digital do perfil do estabel
 - número mínimo de clientes;
 - ocupação do local;
 - retorno financeiro específico;
-- performance comercial de eventos ou campanhas.
+- desempenho comercial de eventos ou campanhas.
 
 Nada nesta cláusula exclui deveres legais do QualABoa por falhas próprias da plataforma, cobrança, proteção de dados, segurança ou oferta.
 

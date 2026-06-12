@@ -14,7 +14,7 @@ export default function ForBusinesses() {
         <div className="for-businesses__content">
           <h2>Para estabelecimentos</h2>
           <p className="section__desc">
-            Bar, restaurante ou evento: apareça para quem já está procurando onde ir e transforme descoberta em visita.
+            Divulgue seu bar, restaurante ou evento para quem já está procurando onde ir e transforme a descoberta em visita.
           </p>
 
           <ul className="list">
