@@ -1,98 +1,390 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exclusão de Conta e Dados — QualABoa</title>
-  <meta
-    name="description"
-    content="Saiba como solicitar a exclusão da sua conta e dos seus dados pessoais no aplicativo QualABoa."
-  />
-  <meta name="theme-color" content="#ffffff" />
-  <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
-  <link rel="shortcut icon" href="/assets/images/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="QualABoa" />
-  <link rel="manifest" href="/assets/images/site.webmanifest" />
-  <style>
-    :root { --tint: #6c2bd9; --text: #1f2933; --muted: #52606d; --bg: #ffffff; }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      color: var(--text); background: var(--bg); line-height: 1.6;
-      max-width: 760px; margin: 0 auto; padding: 32px 20px;
-    }
-    h1 { font-size: 28px; margin-bottom: 4px; }
-    h2 { font-size: 20px; margin-top: 32px; color: var(--tint); }
-    .muted { color: var(--muted); font-size: 14px; }
-    ol, ul { padding-left: 22px; }
-    li { margin: 6px 0; }
-    code { background: #f0f2f5; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
-    .box {
-      background: #f7f5fc; border: 1px solid #e4dcf7; border-radius: 10px;
-      padding: 16px 20px; margin: 20px 0;
-    }
-    a { color: var(--tint); }
-    footer { margin-top: 40px; font-size: 13px; color: var(--muted); border-top: 1px solid #e4e7eb; padding-top: 16px; }
-  </style>
-</head>
-<body>
-  <h1>Exclusão de Conta e Dados</h1>
-  <p class="muted">Aplicativo <strong>QualABoa</strong> — desenvolvido por QualABoa.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusão de conta e dados - QualABoa</title>
+    <meta
+      name="description"
+      content="Saiba como solicitar a exclusão da sua conta e dos seus dados pessoais no aplicativo QualABoa."
+    />
+    <meta name="theme-color" content="#F99B2A" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="QualABoa" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <style>
+      :root {
+        --orange-light: #ffc14b;
+        --orange: #f99b2a;
+        --orange-strong: #f4741b;
+        --purple: #7c3aed;
+        --purple-hover: #6d28d9;
+        --purple-ink: #3b1364;
+        --cream: #fff9f1;
+        --muted: #6b7280;
+        --line: rgba(31, 10, 71, 0.06);
+      }
 
-  <p>
-    Esta página explica como você pode solicitar a exclusão da sua conta e dos
-    seus dados pessoais no aplicativo <strong>QualABoa</strong>.
-  </p>
+      * {
+        box-sizing: border-box;
+      }
 
-  <h2>Opção 1 — Excluir pelo próprio aplicativo (recomendado)</h2>
-  <ol>
-    <li>Abra o aplicativo <strong>QualABoa</strong> e faça login.</li>
-    <li>Acesse o menu de <strong>perfil / configurações da conta</strong>.</li>
-    <li>Toque em <strong>“Excluir minha conta”</strong>.</li>
-    <li>Confirme digitando a sua <strong>senha atual</strong>.</li>
-  </ol>
-  <p>A exclusão é processada imediatamente após a confirmação.</p>
+      html {
+        scroll-behavior: smooth;
+      }
 
-  <h2>Opção 2 — Solicitar por e-mail</h2>
-  <p>
-    Se preferir, envie um e-mail para
-    <a href="mailto:contato@qualaboaapp.com">contato@qualaboaapp.com</a>
-    com o assunto <strong>“Exclusão de conta — QualABoa”</strong>, informando o
-    e-mail cadastrado na sua conta. Concluímos a solicitação em até
-    <strong>30 dias</strong>.
-  </p>
+      body {
+        margin: 0;
+        color: #374151;
+        background: var(--cream);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
 
-  <h2>Quais dados são excluídos</h2>
-  <p>Ao excluir a conta, removemos de forma permanente:</p>
-  <ul>
-    <li>Dados de cadastro: nome, e-mail, telefone, CPF e data de nascimento;</li>
-    <li>Seus locais favoritos e preferências dentro do app;</li>
-    <li>Para contas de estabelecimento: os estabelecimentos cadastrados, os
-        eventos criados e as imagens enviadas (fotos e flyers).</li>
-  </ul>
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
 
-  <h2>Dados que podem ser retidos</h2>
-  <div class="box">
-    <p>
-      Registros de transações de assinatura processadas pelas lojas
-      <strong>Google Play</strong> e <strong>App Store</strong> são mantidos por
-      essas plataformas conforme as políticas e obrigações legais e fiscais
-      aplicáveis, fora do nosso controle. Nenhum dado de cartão é armazenado por
-      nós — os pagamentos são processados integralmente pelas lojas.
-    </p>
-    <p>
-      Quando houver retenção exigida por lei, os dados são mantidos apenas pelo
-      período legal e depois eliminados.
-    </p>
-  </div>
+      .container {
+        width: min(900px, calc(100vw - 40px));
+        margin: 0 auto;
+      }
 
-  <footer>
-    QualABoa — Política de Exclusão de Conta e Dados.<br />
-    Em caso de dúvidas, entre em contato:
-    <a href="mailto:contato@qualaboaapp.com">contato@qualaboaapp.com</a> ·
-    <a href="https://www.instagram.com/qualaboaapp_/" target="_blank" rel="noopener noreferrer">Instagram</a>.
-  </footer>
-</body>
+      .header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: linear-gradient(160deg, #ffc14b 0%, #f99b2a 40%, #f4741b 100%);
+        box-shadow: 0 2px 14px rgba(180, 83, 10, 0.18);
+      }
+
+      .header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        min-height: 74px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .brand__mark {
+        width: 52px;
+        height: auto;
+      }
+
+      .brand__wordmark {
+        width: 174px;
+        height: auto;
+        display: block;
+      }
+
+      .brand__tag {
+        display: block;
+        color: rgba(59, 19, 100, 0.75);
+        font-size: 10.5px;
+        font-weight: 700;
+      }
+
+      .back {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 0 18px;
+        border-radius: 999px;
+        color: #ffffff;
+        background: var(--purple);
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      main {
+        padding: 44px 0 72px;
+      }
+
+      .page-card {
+        overflow: hidden;
+        border-radius: 24px;
+        background: #ffffff;
+        border: 1px solid var(--line);
+        box-shadow: 0 18px 44px rgba(124, 58, 237, 0.1);
+      }
+
+      .hero {
+        padding: 30px;
+        background: linear-gradient(135deg, #fff9f1, #f3e8ff);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        padding: 0 12px;
+        border-radius: 999px;
+        color: #ffffff;
+        background: linear-gradient(90deg, #7c3aed, #d946ef);
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 14px 0 0;
+        color: #1f2937;
+        font-size: clamp(2rem, 7vw, 3rem);
+        line-height: 1.08;
+        font-weight: 950;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 680px;
+        margin: 14px 0 0;
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.65;
+        font-weight: 600;
+      }
+
+      .content {
+        display: grid;
+        gap: 20px;
+        padding: 30px;
+      }
+
+      .step {
+        overflow: hidden;
+        border-radius: 20px;
+        border: 1px solid var(--line);
+        background: #ffffff;
+      }
+
+      .step__head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 18px 20px;
+        color: #ffffff;
+        background: linear-gradient(90deg, #7c3aed, #d946ef);
+      }
+
+      .step--orange .step__head {
+        color: var(--purple-ink);
+        background: linear-gradient(160deg, #ffc14b 0%, #f99b2a 45%, #f4741b 100%);
+      }
+
+      .step__number {
+        display: grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        flex: none;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.22);
+        font-weight: 950;
+      }
+
+      .step__head h2 {
+        margin: 0;
+        font-size: 19px;
+        line-height: 1.25;
+      }
+
+      .step__body {
+        padding: 20px;
+      }
+
+      p {
+        margin: 0;
+        color: #4b5563;
+        line-height: 1.7;
+      }
+
+      ol,
+      ul {
+        margin: 0;
+        padding-left: 22px;
+        color: #4b5563;
+        line-height: 1.7;
+      }
+
+      li + li {
+        margin-top: 6px;
+      }
+
+      .section {
+        padding: 22px;
+        border-radius: 20px;
+        background: #ffffff;
+        border: 1px solid var(--line);
+      }
+
+      .section h2 {
+        margin: 0 0 10px;
+        color: #1f2937;
+        font-size: 22px;
+      }
+
+      .callout {
+        padding: 22px;
+        border-radius: 20px;
+        color: var(--purple-ink);
+        background: #f3e8ff;
+        border: 1px solid rgba(124, 58, 237, 0.12);
+      }
+
+      .callout h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+      }
+
+      .callout p + p {
+        margin-top: 12px;
+      }
+
+      .link {
+        color: var(--purple);
+        font-weight: 800;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      footer {
+        padding: 0 30px 30px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          width: min(100%, calc(100vw - 28px));
+        }
+
+        .brand__mark {
+          width: 44px;
+        }
+
+        .brand__wordmark {
+          width: 138px;
+        }
+
+        .brand__tag {
+          display: none;
+        }
+
+        .back {
+          min-height: 38px;
+          padding: 0 14px;
+          font-size: 12px;
+        }
+
+        main {
+          padding-top: 26px;
+        }
+
+        .hero,
+        .content {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="/">
+          <img class="brand__mark" src="/assets/images/q-mark-nobg.png" alt="" aria-hidden="true" />
+          <span>
+            <img class="brand__wordmark" src="/assets/images/wordmark-nobg.png" alt="QualABoa?" />
+            <span class="brand__tag">documentação legal do app</span>
+          </span>
+        </a>
+        <a class="back" href="/">Voltar ao site</a>
+      </div>
+    </header>
+
+    <main>
+      <article class="container page-card">
+        <section class="hero">
+          <span class="badge">Conta e dados</span>
+          <h1>Exclusão de conta e dados</h1>
+          <p class="lead">
+            Esta página explica como você pode solicitar a exclusão da sua conta e dos seus dados pessoais no aplicativo
+            QualABoa.
+          </p>
+        </section>
+
+        <div class="content">
+          <section class="step">
+            <div class="step__head">
+              <span class="step__number">1</span>
+              <h2>Excluir pelo próprio aplicativo</h2>
+            </div>
+            <div class="step__body">
+              <ol>
+                <li>Abra o aplicativo QualABoa e faça login.</li>
+                <li>Acesse o menu de perfil ou configurações da conta.</li>
+                <li>Toque em "Excluir minha conta".</li>
+                <li>Confirme digitando a sua senha atual.</li>
+              </ol>
+              <p>A exclusão é processada imediatamente após a confirmação.</p>
+            </div>
+          </section>
+
+          <section class="step step--orange">
+            <div class="step__head">
+              <span class="step__number">2</span>
+              <h2>Solicitar por e-mail</h2>
+            </div>
+            <div class="step__body">
+              <p>
+                Se preferir, envie um e-mail para
+                <a class="link" href="mailto:contato@qualaboaapp.com">contato@qualaboaapp.com</a> com o assunto
+                "Exclusão de conta - QualABoa", informando o e-mail cadastrado. Concluímos a solicitação em até 30 dias.
+              </p>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Quais dados são excluídos</h2>
+            <ul>
+              <li>Dados de cadastro: nome, e-mail, telefone, CPF e data de nascimento;</li>
+              <li>Locais favoritos e preferências dentro do app;</li>
+              <li>
+                Para contas de estabelecimento: estabelecimentos cadastrados, eventos criados e imagens enviadas.
+              </li>
+            </ul>
+          </section>
+
+          <section class="callout">
+            <h2>Dados que podem ser retidos</h2>
+            <p>
+              Registros de transações de assinatura processadas pelas lojas Google Play e App Store são mantidos por essas
+              plataformas conforme políticas e obrigações legais e fiscais aplicáveis.
+            </p>
+            <p>
+              Nenhum dado de cartão é armazenado por nós. Quando houver retenção exigida por lei, os dados são mantidos
+              apenas pelo período legal e depois eliminados.
+            </p>
+          </section>
+        </div>
+
+        <footer>
+          QualABoa - Política de Exclusão de Conta e Dados. Em caso de dúvidas, entre em contato:
+          <a class="link" href="mailto:contato@qualaboaapp.com">contato@qualaboaapp.com</a>.
+        </footer>
+      </article>
+    </main>
+  </body>
 </html>

@@ -3,36 +3,39 @@ import Icon from './Icon';
 const cards = [
   {
     icon: 'location',
-    eyebrow: 'Descoberta rápida',
-    title: 'Encontre boas opções perto de você',
-    text: 'Veja bares, restaurantes e eventos próximos com endereço, distância e mapa sem depender de buscas espalhadas.',
+    eyebrow: 'Perto de você',
+    title: 'Veja o que está aberto agora',
+    text: 'Filtre lugares próximos com endereço, distância e horário sem trocar de app.',
   },
   {
     icon: 'calendar',
-    eyebrow: 'Decisão com contexto',
-    title: 'Descubra onde vale a pena sair hoje',
-    text: 'Compare o que está aberto, o que acontece no dia e o melhor horário para ir com mais segurança.',
+    eyebrow: 'Hoje na cidade',
+    title: 'Compare o clima de cada lugar',
+    text: 'Bares, restaurantes e baladas aparecem com contexto para você decidir rápido.',
   },
   {
     icon: 'ticket',
-    eyebrow: 'Valor percebido',
-    title: 'Aproveite cupons e destaques',
-    text: 'Descubra locais em evidência, benefícios e o selo Q? para priorizar o que faz sentido para você.',
+    eyebrow: 'Rota simples',
+    title: 'Escolha e chegue sem enrolar',
+    text: 'Abra a rota, salve favoritos e acompanhe destaques no momento certo.',
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="section" id="como-funciona">
+    <section className="section how" id="como-funciona">
       <div className="container">
-        <h2>Como funciona</h2>
+        <div className="section__eyebrow">Como funciona</div>
+        <h2>
+          Decidir onde ir ficou <span>fácil</span>.
+        </h2>
         <p className="section__desc">
-          Tudo o que você precisa para decidir onde ir em poucos cliques, com informação clara e visual consistente.
+          Tudo o que você precisa para sair do "onde vamos?" em poucos toques, com informação clara e um visual direto.
         </p>
 
         <div className="grid">
-          {cards.map((card) => (
-            <article className="card" key={card.title}>
+          {cards.map((card, index) => (
+            <article className={`card card--tone-${index + 1}`} key={card.title}>
               <div className="icon">
                 <Icon name={card.icon} />
               </div>

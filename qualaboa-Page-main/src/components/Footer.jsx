@@ -5,10 +5,10 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <div className="footer__brand">
-          <img className="footer__mark" src="/assets/images/favicon-96x96.png" alt="QualABoa?" />
+          <img className="footer__mark" src="/assets/images/q-mark-nobg.png" alt="" aria-hidden="true" />
           <div className="footer__content">
-            <div className="footer__name">QualABoa?</div>
-            <div className="footer__tagline">Rápido de decidir, fácil de achar. E aí, qual a boa?</div>
+            <img className="footer__wordmark" src="/assets/images/wordmark-nobg.png" alt="QualABoa?" />
+            <div className="footer__tagline">do café da manhã ao show</div>
             <div className="footer__copy">© {year} QualABoa. Todos os direitos reservados.</div>
           </div>
         </div>

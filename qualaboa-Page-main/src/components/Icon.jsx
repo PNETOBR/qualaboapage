@@ -38,6 +38,13 @@ const icons = {
       <path d="m12 20-1.2-1.1C6 14.5 3 11.8 3 8.5A4.5 4.5 0 0 1 7.5 4c1.7 0 3.3.8 4.5 2.1A6 6 0 0 1 16.5 4 4.5 4.5 0 0 1 21 8.5c0 3.3-3 6-7.8 10.4Z" />
     </>
   ),
+  home: (
+    <>
+      <path d="m3 11 9-8 9 8" />
+      <path d="M5 10v10h14V10" />
+      <path d="M9 20v-6h6v6" />
+    </>
+  ),
   drink: (
     <>
       <path d="M6 4h12l-4 6v6l-2 2-2-2v-6Z" />
@@ -65,6 +72,28 @@ const icons = {
       <path d="M6 12v9" />
       <path d="M16 3v18" />
       <path d="M16 3c2.6 0 4 2.4 4 5.1S18.6 13 16 13" />
+    </>
+  ),
+  search: (
+    <>
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </>
+  ),
+  send: (
+    <>
+      <path d="m22 2-7 20-4-9-9-4Z" />
+      <path d="M22 2 11 13" />
+    </>
+  ),
+  sliders: (
+    <>
+      <path d="M4 7h10" />
+      <path d="M18 7h2" />
+      <circle cx="16" cy="7" r="2" />
+      <path d="M4 17h2" />
+      <path d="M10 17h10" />
+      <circle cx="8" cy="17" r="2" />
     </>
   ),
   sparkles: (

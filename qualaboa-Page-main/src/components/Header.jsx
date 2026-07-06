@@ -3,10 +3,8 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <a className="brand" href="#baixar">
-          <img className="brand__mark" src="/assets/images/favicon-96x96.png" alt="QualABoa?" />
           <div className="brand__copy">
-            <span className="brand__name">QualABoa?</span>
-            <span className="brand__tag">Bares, restaurantes e eventos</span>
+            <img className="brand__wordmark" src="/assets/images/wordmark-nobg.png" alt="QualABoa?" />
           </div>
         </a>
 

@@ -2,19 +2,22 @@ import Icon from './Icon';
 
 const businessHighlights = [
   'Perfil com endereço, horário e informações úteis',
-  'Eventos atualizados na hora certa para gerar movimento',
-  'Destaque com o selo Q? para ganhar mais visibilidade',
+  'Eventos publicados na hora certa',
   'Cupons e ações para incentivar novas visitas',
+  'Controle de reservas com confirmação e lembretes automáticos',
 ];
 
 export default function ForBusinesses() {
   return (
-    <section className="section section--alt" id="para-locais">
+    <section className="section para-locais" id="para-locais">
       <div className="container split">
         <div className="for-businesses__content">
-          <h2>Para estabelecimentos</h2>
+          <div className="section__eyebrow">Para estabelecimentos</div>
+          <h2>
+            Seu lugar na vitrine da <span>cidade</span>.
+          </h2>
           <p className="section__desc">
-            Divulgue seu bar, restaurante ou evento para quem já está procurando onde ir e transforme a descoberta em visita.
+            Apareça para quem já está escolhendo onde comer, beber, dançar ou encontrar amigos hoje.
           </p>
 
           <ul className="list">
@@ -33,7 +36,7 @@ export default function ForBusinesses() {
               Quero divulgar meu local
               <Icon name="arrowRight" />
             </a>
-            <a className="btn btn--ghost" href="/em-breve.html">
+            <a className="btn btn--outline" href="/em-breve.html">
               Baixar o app
             </a>
           </div>
@@ -41,17 +44,16 @@ export default function ForBusinesses() {
 
         <aside className="highlight">
           <div className="highlight__seal">
-            <img className="selo-q__icon selo-q__icon--highlight" src="/assets/images/favicon.svg" alt="Selo Q?" />
-            <div className="highlight__label">Selo Q?</div>
+            <img className="selo-q__icon selo-q__icon--highlight" src="/assets/images/q-mark-nobg.png" alt="" aria-hidden="true" />
           </div>
           <div className="highlight__title">Mais visibilidade para quem decide rápido</div>
           <p className="highlight__text">
-            O destaque certo ajuda seu negócio a aparecer com mais confiança para pessoas que já estão prontas para escolher.
+            O destaque certo ajuda seu local a aparecer com confiança para pessoas que já estão prontas para escolher.
           </p>
           <div className="highlight__chips">
-            <span className="chip chip--yellow">Mais alcance</span>
-            <span className="chip chip--purple">Mais cliques</span>
-            <span className="chip chip--orange">Mais visitas</span>
+            <span className="chip chip--white">Mais alcance</span>
+            <span className="chip chip--dark">Mais cliques</span>
+            <span className="chip chip--white">Mais visitas</span>
           </div>
         </aside>
       </div>

@@ -22,10 +22,10 @@ export default function LegalApp({ initialSection = 'termsOfUse' }) {
       <header className="header header--legal">
         <div className="container header__inner header__inner--legal">
           <a className="brand" href="/">
-            <img className="brand__mark" src="/assets/images/favicon-96x96.png" alt="QualABoa?" />
+            <img className="brand__mark" src="/assets/images/q-mark-nobg.png" alt="" aria-hidden="true" />
             <div className="brand__copy">
-              <span className="brand__name">QualABoa?</span>
-              <span className="brand__tag">Documentação legal do app</span>
+              <img className="brand__wordmark" src="/assets/images/wordmark-nobg.png" alt="QualABoa?" />
+              <span className="brand__tag">documentação legal do app</span>
             </div>
           </a>
 
@@ -44,61 +44,41 @@ export default function LegalApp({ initialSection = 'termsOfUse' }) {
 
       <main className="legal-page">
         <section className="legal-hero">
-          <div className="glow glow--purple" />
-          <div className="glow glow--orange" />
-          <div className="glow glow--neutral" />
-
-          <div className="container legal-hero__grid">
-            <div className="legal-hero__content">
-              <span className="legal-hero__eyebrow">Central legal</span>
-              <h1 className="legal-hero__title">Termos, privacidade e regras para administradores em um único lugar.</h1>
+          <div className="container legal-shell">
+            <div className="legal-document__intro legal-document__intro--main">
+              <div className="legal-document__badge">Central legal</div>
+              <h1 className="legal-hero__title">Termos, privacidade e regras para administradores.</h1>
               <p className="legal-hero__text">
-                Esta página concentra a versão vigente dos documentos oficiais do QualABoa, com leitura organizada,
-                navegação por seções e contato direto para suporte e privacidade.
+                Esta página concentra a versão vigente dos documentos oficiais do QualABoa, com leitura organizada e
+                contato direto para suporte.
               </p>
 
-              <div className="legal-hero__chips">
-                <span className="chip chip--yellow">Última atualização: {TERMS_AND_PRIVACY.lastUpdate}</span>
-                <span className="chip chip--purple">3 documentos ativos</span>
-                <span className="chip chip--orange">Canal oficial: contato@qualaboaapp.com</span>
-              </div>
-
-              <div className="actions">
-                <a className="btn btn--primary" href="#termos-de-uso">
-                  Ler termos
-                </a>
-                <a className="btn btn--ghost" href="mailto:contato@qualaboaapp.com">
-                  Falar com o suporte
-                </a>
-              </div>
-            </div>
-
-            <aside className="legal-summary">
-              <div className="legal-summary__label">Navegação rápida</div>
-              <div className="legal-summary__items">
+              <div className="legal-tabs" aria-label="Documentos legais">
                 {LEGAL_DOCUMENTS.map((document) => (
-                  <a key={document.id} className="legal-summary__item" href={`#${document.id}`}>
-                    <span className="legal-summary__badge">{document.badge}</span>
-                    <strong>{document.label}</strong>
-                    <span>{document.description}</span>
+                  <a key={document.id} className="legal-tab" href={`#${document.id}`}>
+                    {document.label}
                   </a>
                 ))}
               </div>
-            </aside>
-          </div>
-        </section>
 
-        <section className="legal-section">
-          <div className="container legal-section__inner">
-            {LEGAL_DOCUMENTS.map((document) => (
-              <LegalDocument
-                key={document.id}
-                id={document.id}
-                badge={document.badge}
-                description={document.description}
-                content={document.content}
-              />
-            ))}
+              <div className="legal-document__meta">
+                <span className="legal-document__meta-item">Última atualização: {TERMS_AND_PRIVACY.lastUpdate}</span>
+                <span className="legal-document__meta-item">3 documentos ativos</span>
+                <span className="legal-document__meta-item">contato@qualaboaapp.com</span>
+              </div>
+            </div>
+
+            <div className="legal-section__inner">
+              {LEGAL_DOCUMENTS.map((document) => (
+                <LegalDocument
+                  key={document.id}
+                  id={document.id}
+                  badge={document.badge}
+                  description={document.description}
+                  content={document.content}
+                />
+              ))}
+            </div>
           </div>
         </section>
       </main>
