@@ -180,13 +180,29 @@ button {
     linear-gradient(165deg, #ffc14b 0%, #f99b2a 38%, #f4741b 100%);
 }
 
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  z-index: 0;
+  height: 150px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1440 150' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 64C170 28 360 44 555 62C775 82 960 105 1185 96C1310 91 1395 76 1440 65V150H0V64Z' fill='%23FFF9F1'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
 .hero__grid {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 460px;
   gap: 40px;
   align-items: center;
   min-height: calc(100vh - 74px);
-  padding: 58px 0 64px;
+  padding: 58px 0 118px;
 }
 
 .hero__content {
@@ -1247,7 +1263,7 @@ h2 span {
     grid-template-columns: 1fr;
     justify-items: center;
     min-height: auto;
-    padding: 48px 0 58px;
+    padding: 48px 0 116px;
     text-align: center;
   }
 
@@ -1324,7 +1340,7 @@ h2 span {
   }
 
   .hero__grid {
-    padding: 38px 0 48px;
+    padding: 38px 0 102px;
   }
 
   .hero__title {
