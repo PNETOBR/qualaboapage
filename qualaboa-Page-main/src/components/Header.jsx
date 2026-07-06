@@ -11,7 +11,7 @@ export default function Header() {
         <nav className="nav">
           <a href="#como-funciona">Como funciona</a>
           <a href="#para-locais">Para estabelecimentos</a>
-          <a href="#baixar" className="nav__cta">
+          <a href="/em-breve.html" className="nav__cta">
             Baixar o app
           </a>
         </nav>
