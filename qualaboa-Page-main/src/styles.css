@@ -614,6 +614,7 @@ button {
   display: grid;
   gap: 7px;
   padding: 13px 14px 15px;
+  text-align: left;
 }
 
 .phone-card__body h3 {
@@ -1383,14 +1384,8 @@ h2 span {
     height: 140px;
   }
 
-  .floating-badge--today {
-    left: -2px;
-    top: 62px;
-  }
-
-  .floating-badge--near {
-    right: 0;
-    bottom: 96px;
+  .floating-badge {
+    display: none;
   }
 
   .section {
